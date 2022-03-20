@@ -29,6 +29,8 @@ class noteController extends Controller
         $note = new Note();
         $noteName = $request->input('noteName');
         $note->create(['noteName' => $noteName]);
+
+        return $note->latest("id")->first();
     }
 
     /**
@@ -54,7 +56,10 @@ class noteController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $editNoteName = $request->input('editNoteName');
+        $note = new Note();
+        $note->where('id',$id)
+            ->update(['noteName' => $editNoteName]);
     }
 
     /**

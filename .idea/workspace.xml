@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ec8136-6fd7-4039-8875-5dc1a91b4af6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_2022_03_07_16_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Note.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TodoApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TodoApi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/noteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/noteController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +236,17 @@
       <workItem from="1647305679016" duration="229000" />
       <workItem from="1647320674247" duration="12000" />
       <workItem from="1647320726826" duration="107000" />
+      <workItem from="1647419907653" duration="98000" />
+      <workItem from="1647541907017" duration="62000" />
+      <workItem from="1647542015477" duration="148000" />
+      <workItem from="1647542332151" duration="8000" />
+      <workItem from="1647542528470" duration="39000" />
+      <workItem from="1647582196856" duration="313000" />
+      <workItem from="1647589524024" duration="285000" />
+      <workItem from="1647594144415" duration="222000" />
+      <workItem from="1647596937148" duration="726000" />
+      <workItem from="1647754937582" duration="100000" />
+      <workItem from="1647755288862" duration="56000" />
     </task>
     <servers />
   </component>
