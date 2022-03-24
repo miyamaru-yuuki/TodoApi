@@ -27,10 +27,7 @@ class noteController extends Controller
     public function store(Request $request)
     {
         $note = new Note();
-        $noteName = $request->input('noteName');
-        $note->create(['noteName' => $noteName]);
-
-        return $note->latest("id")->first();
+        return $note->create(['noteName' => $request->input('noteName')]);
     }
 
     /**
@@ -73,5 +70,13 @@ class noteController extends Controller
         $note = new Note();
         $note->where('id',$id)
             ->delete();
+    }
+
+    public function search(Request $request)
+    {
+        $keyWord = $request->query("keyWord");
+        $note = new Note();
+        return $note->where('noteName','like', '%' .$keyWord. '%')
+            ->get();
     }
 }
